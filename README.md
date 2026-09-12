@@ -6,7 +6,7 @@ Upload a PDF or DOCX, optionally paste a job description, and get:
 - A **rule-based quality score** (0–100) with a per-category breakdown
 - **AI feedback** with strengths, prioritized improvements, missing keywords, and concrete rewrite examples
 
-🔗 **Live app:** https://resume-scanner.streamlit.app
+🔗 **Live app:** https://resume-scanner-io.streamlit.app
 
 ---
 
@@ -42,7 +42,7 @@ If Gemini is unavailable, the rule-based score still shows. The app never depend
 ## 🚀 Run locally
 
 ```bash
-git clone https://github.com/nisarrudin-dev/resume-scanner.git
+git clone https://github.com/nisaruddin-dev/resume-scanner.git
 cd resume-scanner
 pip install -r requirements.txt
 Create .streamlit/secrets.toml from the example:
